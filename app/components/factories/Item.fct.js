@@ -27,8 +27,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         'Hitpoints',
         'Agility',
         'Herbalore',
-        'Thieving',
-        'Crafting',
+        'Thieving','Crafting',
         'Fletching',
         'Slayer',
         'Hunter',
@@ -773,7 +772,6 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
             ]
         },
         {
-
             name: 'Initiate Sallet',
             slot: 0,
             image: 'http://vignette1.wikia.nocookie.net/2007scape/images/2/2b/Initiate_sallet.png/revision/latest?cb=20130407033235',
@@ -878,7 +876,6 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
             ]
         },
         {
-
             name: 'Proselyte Sallet',
             slot: 0,
             image: 'http://vignette2.wikia.nocookie.net/2007scape/images/b/b4/Proselyte_sallet.png/revision/latest?cb=20131006012510',
@@ -1141,7 +1138,6 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         },
         //BOOTS
         {
-
             name: 'Rock-shell Boots',
             slot: 5,
             image: 'http://vignette3.wikia.nocookie.net/2007scape/images/8/8d/Rock-shell_boots.png/revision/latest?cb=20131213001902',
@@ -1869,7 +1865,6 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
                 0,          //farming
             ]
         },
-
         {
             name: 'Leather Boots',
             slot: 5,
@@ -1922,7 +1917,6 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
                 0,          //farming
             ]
         },
-
         {
             name: 'Frog-leather Boots',
             slot: 5,
@@ -1975,7 +1969,6 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
                 0,          //farming
             ]
         },
-
         {
             name: 'Snakeskin Boots',
             slot: 5,
@@ -2028,7 +2021,6 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
                 0,          //farming
             ]
         },
-
         {
             name: 'Ranger Boots',
             slot: 5,
@@ -2114,6 +2106,474 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
                 75,          //ranged
                 0,          //prayer
                 0,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Skeletal Boots',
+            slot: 5,
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/0/0e/Skeletal_boots.png/revision/latest?cb=20131207055617',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 0,
+                    ranged: 0
+                },
+                defence: {
+                    stab: 0,
+                    slash: 1,
+                    crush: 1,
+                    magic: 0,
+                    ranged: 0
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                0,          //defence
+                0,          //ranged
+                0,          //prayer
+                0,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Ghostly Boots',
+            slot: 5,
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/a/a2/Ghostly_boots.png/revision/latest?cb=20130401221213',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 2,
+                    ranged: 0
+                },
+                defence: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 2,
+                    ranged: 0
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                0,          //defence
+                0,          //ranged
+                0,          //prayer
+                0,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Moonclan Boots',
+            slot: 5,
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/3/3a/Moonclan_boots.png/revision/latest?cb=20140330015311',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 2,
+                    ranged: -5
+                },
+                defence: {
+                    stab: 2,
+                    slash: 2,
+                    crush: 2,
+                    magic: 2,
+                    ranged: -5
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                0,          //defence
+                0,          //ranged
+                0,          //prayer
+                0,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Splitbark Boots',
+            slot: 5,
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/4/43/Splitbark_boots.png/revision/latest?cb=20140726051921',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 2,
+                    ranged: -1
+                },
+                defence: {
+                    stab: 3,
+                    slash: 2,
+                    crush: 4,
+                    magic: 2,
+                    ranged: 0
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                40,          //defence
+                0,          //ranged
+                0,          //prayer
+                40,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Wizard Boots',
+            slot: 5,
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/9/99/Wizard_boots.png/revision/latest?cb=20130801125841',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 4,
+                    ranged: 0
+                },
+                defence: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 4,
+                    ranged: 0
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                0,          //defence
+                0,          //ranged
+                0,          //prayer
+                20,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Mystic Boots',
+            slot: 5,
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/7/7f/Mystic_boots_%28blue%29.png/revision/latest?cb=20131117221734',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 3,
+                    ranged: 0
+                },
+                defence: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 3,
+                    ranged: 0
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                20,          //defence
+                0,          //ranged
+                0,          //prayer
+                40,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Infinity Boots',
+            slot: 5,
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/d/d8/Infinity_boots.png/revision/latest?cb=20131206213324',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 5,
+                    ranged: 0
+                },
+                defence: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 5,
+                    ranged: 0
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                25,          //defence
+                0,          //ranged
+                0,          //prayer
+                50,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Lunar Boots',
+            slot: 5,
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/8/84/Lunar_boots.png/revision/latest?cb=20140102213716',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 2,
+                    ranged: -1
+                },
+                defence: {
+                    stab: 0,
+                    slash: 1,
+                    crush: 1,
+                    magic: 1,
+                    ranged: 0
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                40,          //defence
+                0,          //ranged
+                0,          //prayer
+                65,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Eternal Boots',
+            slot: 5,
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/e/ee/Eternal_boots.png/revision/latest?cb=20150903194748',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 8,
+                    ranged: 0
+                },
+                defence: {
+                    stab: 5,
+                    slash: 5,
+                    crush: 5,
+                    magic: 8,
+                    ranged: 5
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                75,          //defence
+                0,          //ranged
+                0,          //prayer
+                75,          //magic
                 0,          //runecrafting
                 0,          //construction
                 0,          //hitpoints

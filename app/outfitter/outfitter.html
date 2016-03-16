@@ -20,16 +20,24 @@
 
     <div id="gearList" class="col-sm-8 col-xs-7">
         <h3>Selected Gear</h3>
-        <div id="equippedItems">
+        <div id="equippedItems" class="col-xs-12 col-lg-6">
             <div class="equipSlot" ng-repeat="slot in slots track by $index">
                 <div class="col-xs-4 text-left">
                     <b>{{slot}}:</b>
                 </div>
                 <div class="col-xs-8 text-left" ng-switch="itemSlots[$index] > -1">
-                    <span ng-switch-when="true">{{items[itemSlots[$index]].name}}</span>
-                    <span ng-switch-when="false">None</span>
+                    <div ng-switch-when="true">
+                        <img src="{{items[itemSlots[$index]].image}}" alt="">
+                        <span>
+                            {{items[itemSlots[$index]].name}}
+                        </span>
+                    </div>
+                    <div ng-switch-when="false">None</div>
                 </div>
             </div>
+        </div>
+        <div id="preview" class="col-xs-12 col-lg-6">
+            <img src="http://vignette4.wikia.nocookie.net/2007scape/images/1/12/Worn_equipment_tab.png/revision/latest?cb=20150625020641" alt="">
         </div>
         <div class="clearfix"></div>
         <h3>Gear Stats:</h3>

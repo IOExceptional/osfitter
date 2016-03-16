@@ -20,19 +20,35 @@
 <body>
     <!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
 
+    <header class="text-center">
+        <h1>OSFitter</h1>
+        <p class="text-muted">An OldSchool RuneScape character fitting tool, similar in concept to the EVE Fitting Tool.</p>
+        <!--<nav>-->
+            <!--<span class="link">-->
+                <!--<a href="#/outfitter">Outfitter</a>-->
+            <!--</span> |-->
+            <!--<span class="link">-->
+                <!--<a href="#/about">About</a>-->
+            <!--</span>-->
+        <!--</nav>-->
+    </header>
+
     <div ng-view></div>
 
     <!-- In production use:
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
     -->
+
+    <footer class="text-center">
+        <p class="text-muted">Tool built by <a href="twitter.com/lwalkeruk/">Lee Walker</a></p>
+    </footer>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="app.js"></script>
+    <script src="about/about.ctrl.js"></script>
     <script src="outfitter/outfitter.js"></script>
     <script src="components/factories/Item.fct.js"></script>
-    <script src="components/filters/objectSearch.filter.js"></script>
-
 </body>
 </html>
