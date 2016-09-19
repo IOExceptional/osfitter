@@ -2,7 +2,7 @@
 
 angular.module('OSFitter', ['ngRoute'])
 .config(['$routeProvider', function($routeProvider) {
-    $routeProvider.when('/outfitter', {
+    $routeProvider.when('/', {
         templateUrl: 'outfitter/outfitter.html',
         controller: 'OutfitterViewController'
     });
@@ -102,6 +102,15 @@ angular.module('OSFitter', ['ngRoute'])
         $scope.itemSlots[slotIndex] = itemIndex;
         $scope.itemSlotsStats[slotIndex] = item.stats;
         $scope.itemSlotsRequirements[slotIndex] = item.requirements;
+        $scope.calculateRequirements();
+        $scope.calculateStats();
+    };
+
+    $scope.removeSlot = function (slotIndex) {
+        $scope.itemSlots[slotIndex] = -1;
+        $scope.itemSlotsStats[slotIndex] = -1;
+        $scope.itemSlotsRequirements[slotIndex] = -1;
+
         $scope.calculateRequirements();
         $scope.calculateStats();
     };

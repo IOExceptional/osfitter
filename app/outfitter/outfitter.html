@@ -18,83 +18,87 @@
         </div>
     </div>
 
-    <div id="gearList" class="col-sm-8 col-xs-7">
-        <h3>Selected Gear</h3>
-        <div id="equippedItems" class="col-xs-12 col-lg-6">
-            <div class="equipSlot" ng-repeat="slot in slots track by $index">
-                <div class="col-xs-4 text-left">
-                    <b>{{slot}}:</b>
-                </div>
-                <div class="col-xs-8 text-left" ng-switch="itemSlots[$index] > -1">
-                    <div ng-switch-when="true" class="itemImage">
-                        <img src="{{items[itemSlots[$index]].image}}" alt="">
-                        <span>
-                            {{items[itemSlots[$index]].name}}
-                        </span>
+    <div class="col-sm-8 col-xs-7">
+        <h3 onclick="document.getElementById('gearList').classList.toggle('hide');">Selected Gear</h3>
+        <div id="gearList" class="clearfix">
+            <div id="equippedItems" class="col-xs-12 col-lg-6">
+                <div class="equipSlot" ng-repeat="slot in slots track by $index">
+                    <div class="col-xs-4 text-left">
+                        <b>{{slot}}:</b>
                     </div>
-                    <div ng-switch-when="false">None</div>
+                    <div class="col-xs-8 text-left" ng-switch="itemSlots[$index] > -1">
+                        <div ng-switch-when="true" class="itemImage" ng-click="removeSlot($index)">
+                            <img src="{{items[itemSlots[$index]].image}}" alt="">
+                            <span>
+                                {{items[itemSlots[$index]].name}}
+                            </span>
+                        </div>
+                        <div ng-switch-when="false">None</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="preview" class="col-xs-12 col-lg-6">
-            <img src="http://vignette4.wikia.nocookie.net/2007scape/images/1/12/Worn_equipment_tab.png/revision/latest?cb=20150625020641" alt="">
-        </div>
-        <div class="clearfix"></div>
-        <h3>Gear Stats:</h3>
-        <div id="stats" class="col-xs-12">
-            <h4>Attack</h4>
-            <div class="row">
-                <div class="col-xs-2">Stab</div>
-                <div class="col-xs-2">Slash</div>
-                <div class="col-xs-2">Crush</div>
-                <div class="col-xs-2">Magic</div>
-                <div class="col-xs-2">Ranged</div>
-            </div>
-            <div class="row">
-                <div class="col-xs-2">{{stats.attack.stab}}</div>
-                <div class="col-xs-2">{{stats.attack.slash}}</div>
-                <div class="col-xs-2">{{stats.attack.crush}}</div>
-                <div class="col-xs-2">{{stats.attack.magic}}</div>
-                <div class="col-xs-2">{{stats.attack.ranged}}</div>
-            </div>
-            <h4>Defence</h4>
-            <div class="row">
-                <div class="col-xs-2">Stab</div>
-                <div class="col-xs-2">Slash</div>
-                <div class="col-xs-2">Crush</div>
-                <div class="col-xs-2">Magic</div>
-                <div class="col-xs-2">Ranged</div>
-            </div>
-            <div class="row">
-                <div class="col-xs-2">{{stats.defence.stab}}</div>
-                <div class="col-xs-2">{{stats.defence.slash}}</div>
-                <div class="col-xs-2">{{stats.defence.crush}}</div>
-                <div class="col-xs-2">{{stats.defence.magic}}</div>
-                <div class="col-xs-2">{{stats.defence.ranged}}</div>
-            </div>
-            <h4>Other</h4>
-            <div class="row">
-                <div class="col-xs-3">Strength</div>
-                <div class="col-xs-3">Magic Strength</div>
-                <div class="col-xs-3">Ranged Strength</div>
-                <div class="col-xs-3">Prayer</div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3">{{stats.other.strength}}</div>
-                <div class="col-xs-3">{{stats.other.magicStrength}}</div>
-                <div class="col-xs-3">{{stats.other.rangedStrength}}</div>
-                <div class="col-xs-3">{{stats.other.prayer}}</div>
-            </div>
+            <!--<div id="preview" class="col-xs-12 col-lg-6">
+                <img src="http://vignette4.wikia.nocookie.net/2007scape/images/1/12/Worn_equipment_tab.png/revision/latest?cb=20150625020641" alt="">
+            </div>-->
+        </div>    
+        <h3 onclick="document.getElementById('statsList').classList.toggle('hide')">Gear Stats</h3>
+        <div id="statsList" class="clearfix">
+            <div id="stats" class="col-xs-12">
+                <h4>Attack</h4>
+                <div class="row">
+                    <div class="col-xs-2">Stab</div>
+                    <div class="col-xs-2">Slash</div>
+                    <div class="col-xs-2">Crush</div>
+                    <div class="col-xs-2">Magic</div>
+                    <div class="col-xs-2">Ranged</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">{{stats.attack.stab}}</div>
+                    <div class="col-xs-2">{{stats.attack.slash}}</div>
+                    <div class="col-xs-2">{{stats.attack.crush}}</div>
+                    <div class="col-xs-2">{{stats.attack.magic}}</div>
+                    <div class="col-xs-2">{{stats.attack.ranged}}</div>
+                </div>
+                <h4>Defence</h4>
+                <div class="row">
+                    <div class="col-xs-2">Stab</div>
+                    <div class="col-xs-2">Slash</div>
+                    <div class="col-xs-2">Crush</div>
+                    <div class="col-xs-2">Magic</div>
+                    <div class="col-xs-2">Ranged</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">{{stats.defence.stab}}</div>
+                    <div class="col-xs-2">{{stats.defence.slash}}</div>
+                    <div class="col-xs-2">{{stats.defence.crush}}</div>
+                    <div class="col-xs-2">{{stats.defence.magic}}</div>
+                    <div class="col-xs-2">{{stats.defence.ranged}}</div>
+                </div>
+                <h4>Other</h4>
+                <div class="row">
+                    <div class="col-xs-3">Strength</div>
+                    <div class="col-xs-3">Magic Strength</div>
+                    <div class="col-xs-3">Ranged Strength</div>
+                    <div class="col-xs-3">Prayer</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3">{{stats.other.strength}}</div>
+                    <div class="col-xs-3">{{stats.other.magicStrength}}</div>
+                    <div class="col-xs-3">{{stats.other.rangedStrength}}</div>
+                    <div class="col-xs-3">{{stats.other.prayer}}</div>
+                </div>
 
+            </div>
         </div>
-        <div class="clearfix"></div>
-        <h3>Level Requirements:</h3>
-        <div id="requirements" class="col-xs-12">
-            <ul class="requirementsList">
-                <li ng-repeat="requirement in requirements track by $index" ng-show="requirement > 0">
-                    {{skills[$index]}} level required: {{requirement}}
-                </li>
-            </ul>
+        <h3 onclick="document.getElementById('requirementsList').classList.toggle('hide')">Level Requirements</h3>
+        <div id="requirementsList" class="clearfix">
+            <div id="requirements" class="col-xs-12">
+                <ul class="requirementsList">
+                    <li ng-repeat="requirement in requirements track by $index" ng-show="requirement > 0">
+                        {{skills[$index]}} level required: {{requirement}}
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
