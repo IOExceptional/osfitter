@@ -23,6 +23,16 @@ body, html {
     font-style: italic;
 }
 
+.itemImage {
+    width: 30px;
+    height: 30px;
+}
+
+.itemImage img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
 .equipSlot {
     height: 40px;
 }

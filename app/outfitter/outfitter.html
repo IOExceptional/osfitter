@@ -26,7 +26,7 @@
                     <b>{{slot}}:</b>
                 </div>
                 <div class="col-xs-8 text-left" ng-switch="itemSlots[$index] > -1">
-                    <div ng-switch-when="true">
+                    <div ng-switch-when="true" class="itemImage">
                         <img src="{{items[itemSlots[$index]].image}}" alt="">
                         <span>
                             {{items[itemSlots[$index]].name}}

@@ -1136,6 +1136,266 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
                 0,          //farming
             ]
         },
+        {
+            name: 'Beserker helm',
+            slot: 0,
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/9/9f/Berserker_helm.png/revision/latest?cb=20140919201355',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: -5,
+                    ranged: -5
+                },
+                defence: {
+                    stab: 31,
+                    slash: 29,
+                    crush: 33,
+                    magic: 0,
+                    ranged: 30
+                },
+                other: {
+                    strength: 3,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                45,          //defence
+                0,          //ranged
+                0,          //prayer
+                0,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Helm of neitiznot',
+            slot: 0,
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/8/81/Helm_of_neitiznot.png/revision/latest?cb=20130401035133',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 0,
+                    ranged: 0
+                },
+                defence: {
+                    stab: 31,
+                    slash: 29,
+                    crush: 34,
+                    magic: 3,
+                    ranged: 30
+                },
+                other: {
+                    strength: 3,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 3
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                55,          //defence
+                0,          //ranged
+                0,          //prayer
+                0,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Rock-shell helm',
+            slot: 0,
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/6/62/Rock-shell_helm.png/revision/latest?cb=20160804121838',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: -6,
+                    ranged: -2
+                },
+                defence: {
+                    stab: 30,
+                    slash: 32,
+                    crush: 27,
+                    magic: -1,
+                    ranged: 30
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                40,          //defence
+                0,          //ranged
+                0,          //prayer
+                0,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Spined helm',
+            slot: 0,
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/f/f6/Spined_helm.png/revision/latest?cb=20160804121840',
+            stats: {
+                attack: {
+                    stab: -6,
+                    slash: -6,
+                    crush: -6,
+                    magic: -6,
+                    ranged: 6
+                },
+                defence: {
+                    stab: 6,
+                    slash: 6,
+                    crush: 6,
+                    magic: 6,
+                    ranged: 0
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                40,          //defence
+                40,          //ranged
+                0,          //prayer
+                0,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Skeletal helm',
+            slot: 0,
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/e/e3/Skeletal_helm.png/revision/latest?cb=20160804121614',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: 2,
+                    ranged: -2
+                },
+                defence: {
+                    stab: 10,
+                    slash: 9,
+                    crush: 11,
+                    magic: 3,
+                    ranged: 0
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                40,          //defence
+                0,          //ranged
+                0,          //prayer
+                40,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
         //BOOTS
         {
             name: 'Rock-shell Boots',
