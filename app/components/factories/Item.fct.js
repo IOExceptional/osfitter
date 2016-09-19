@@ -45,7 +45,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Bronze Med Helm',
             slot: 0,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/5/52/Bronze_med_helm.png/revision/latest?cb=20131218082527',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/5/52/Bronze_med_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -97,7 +97,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Iron Med Helm',
             slot: 0,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/3/3e/Iron_med_helm.png/revision/latest?cb=20140308032543',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/3/3e/Iron_med_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -149,7 +149,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Steel Med Helm',
             slot: 0,
-            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/d/d5/Steel_med_helm.png/revision/latest?cb=20130928053157',
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/d/d5/Steel_med_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -201,7 +201,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Black Med Helm',
             slot: 0,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/4/4c/Black_med_helm.png/revision/latest?cb=20131106213953',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/4/4c/Black_med_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -253,7 +253,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'White Med Helm',
             slot: 0,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/d/d1/White_med_helm.png/revision/latest?cb=20140120051552',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/d/d1/White_med_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -305,7 +305,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Mithril Med Helm',
             slot: 0,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/3/3a/Mithril_med_helm.png/revision/latest?cb=20140520131808',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/3/3a/Mithril_med_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -357,7 +357,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Adamant Med Helm',
             slot: 0,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/f/fc/Adamant_med_helm.png/revision/latest?cb=20130802173626',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/f/fc/Adamant_med_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -409,7 +409,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Rune Med Helm',
             slot: 0,
-            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/c/c9/Rune_med_helm.png/revision/latest?cb=20140806031750',
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/c/c9/Rune_med_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -461,7 +461,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Dragon Med Helm',
             slot: 0,
-            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/c/cf/Dragon_med_helm.png/revision/latest?cb=20140327221834',
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/c/cf/Dragon_med_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -514,7 +514,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Bronze Full Helm',
             slot: 0,
-            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/e/ef/Bronze_full_helm.png/revision/latest?cb=20131218080719',
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/e/ef/Bronze_full_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -566,7 +566,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Iron Full Helm',
             slot: 0,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/0/00/Iron_full_helm.png/revision/latest?cb=20140309033528',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/0/00/Iron_full_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -618,7 +618,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Steel Full Helm',
             slot: 0,
-            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/a/ae/Steel_full_helm.png/revision/latest?cb=20140309032758',
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/a/ae/Steel_full_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -670,7 +670,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Black Full Helm',
             slot: 0,
-            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/4/4b/Black_full_helm.png/revision/latest?cb=20130702123810',
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/4/4b/Black_full_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -722,7 +722,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'White Full Helm',
             slot: 0,
-            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/d/de/White_full_helm.png/revision/latest?cb=20140120051724',
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/d/de/White_full_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -774,7 +774,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Initiate Sallet',
             slot: 0,
-            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/2/2b/Initiate_sallet.png/revision/latest?cb=20130407033235',
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/2/2b/Initiate_sallet.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -826,7 +826,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Mithril Full Helm',
             slot: 0,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/6/63/Mithril_full_helm.png/revision/latest?cb=20131119025847',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/6/63/Mithril_full_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -878,7 +878,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Proselyte Sallet',
             slot: 0,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/b/b4/Proselyte_sallet.png/revision/latest?cb=20131006012510',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/b/b4/Proselyte_sallet.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -930,7 +930,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Adamant Full Helm',
             slot: 0,
-            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/b/b6/Adamant_full_helm.png/revision/latest?cb=20130703005453',
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/b/b6/Adamant_full_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -982,7 +982,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Rune Full Helm',
             slot: 0,
-            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/7/73/Rune_full_helm.png/revision/latest?cb=20130301062650',
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/7/73/Rune_full_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1034,7 +1034,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Dragon Full Helm',
             slot: 0,
-            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/1/19/Dragon_full_helm.png/revision/latest?cb=20130726044609',
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/1/19/Dragon_full_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1087,7 +1087,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Serpentine Helm',
             slot: 0,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/0/0b/Serpentine_helm_%28uncharged%29.png/revision/latest?cb=20150108113144',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/0/0b/Serpentine_helm_%28uncharged%29.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1139,7 +1139,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Beserker helm',
             slot: 0,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/9/9f/Berserker_helm.png/revision/latest?cb=20140919201355',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/9/9f/Berserker_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1191,7 +1191,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Helm of neitiznot',
             slot: 0,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/8/81/Helm_of_neitiznot.png/revision/latest?cb=20130401035133',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/8/81/Helm_of_neitiznot.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1243,7 +1243,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Rock-shell helm',
             slot: 0,
-            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/6/62/Rock-shell_helm.png/revision/latest?cb=20160804121838',
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/6/62/Rock-shell_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1295,7 +1295,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Spined helm',
             slot: 0,
-            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/f/f6/Spined_helm.png/revision/latest?cb=20160804121840',
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/f/f6/Spined_helm.png',
             stats: {
                 attack: {
                     stab: -6,
@@ -1347,7 +1347,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Skeletal helm',
             slot: 0,
-            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/e/e3/Skeletal_helm.png/revision/latest?cb=20160804121614',
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/e/e3/Skeletal_helm.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1396,11 +1396,219 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
                 0,          //farming
             ]
         },
+        {
+            name: 'Fremennik helm',
+            slot: 0,
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/4/40/Fremennik_helm.png',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 0,
+                    crush: 0,
+                    magic: -6,
+                    ranged: -2
+                },
+                defence: {
+                    stab: 19,
+                    slash: 21,
+                    crush: 16,
+                    magic: -1,
+                    ranged: 19
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                30,          //defence
+                0,          //ranged
+                0,          //prayer
+                0,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Archer helm',
+            slot: 0,
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/5/58/Archer_helm.png',
+            stats: {
+                attack: {
+                    stab: -5,
+                    slash: -5,
+                    crush: -5,
+                    magic: -5,
+                    ranged: 6
+                },
+                defence: {
+                    stab: 6,
+                    slash: 8,
+                    crush: 10,
+                    magic: 6,
+                    ranged: 6
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                45,          //defence
+                0,          //ranged
+                0,          //prayer
+                0,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Farseer helm',
+            slot: 0,
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/6/60/Farseer_helm.png',
+            stats: {
+                attack: {
+                    stab: -5,
+                    slash: -5,
+                    crush: -5,
+                    magic: 6,
+                    ranged: -5
+                },
+                defence: {
+                    stab: 8,
+                    slash: 10,
+                    crush: 12,
+                    magic: 6,
+                    ranged: 0
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                45,          //defence
+                0,          //ranged
+                0,          //prayer
+                0,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
+        {
+            name: 'Warrior helm',
+            slot: 0,
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/8/8f/Warrior_helm.png',
+            stats: {
+                attack: {
+                    stab: 0,
+                    slash: 5,
+                    crush: 0,
+                    magic: -5,
+                    ranged: -5
+                },
+                defence: {
+                    stab: 31,
+                    slash: 33,
+                    crush: 29,
+                    magic: 0,
+                    ranged: 30
+                },
+                other: {
+                    strength: 0,
+                    rangedStrength: 0,
+                    magicStrength: 0,
+                    prayer: 0
+                }
+            },
+            requirements: [
+                0,          //attack
+                0,          //strength
+                45,          //defence
+                0,          //ranged
+                0,          //prayer
+                0,          //magic
+                0,          //runecrafting
+                0,          //construction
+                0,          //hitpoints
+                0,          //agility
+                0,          //herbalore
+                0,          //thieving
+                0,          //crafting
+                0,          //fletching
+                0,          //slayer
+                0,          //hunter
+                0,          //mining
+                0,          //smithing
+                0,          //fishing
+                0,          //cooking
+                0,          //firemaking
+                0,          //woodcutting
+                0,          //farming
+            ]
+        },
         //BOOTS
         {
             name: 'Rock-shell Boots',
             slot: 5,
-            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/8/8d/Rock-shell_boots.png/revision/latest?cb=20131213001902',
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/8/8d/Rock-shell_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1452,7 +1660,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Fighting Boots',
             slot: 5,
-            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/f/f5/Fighting_boots.png/revision/latest?cb=20130629091541',
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/f/f5/Fighting_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1504,7 +1712,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Fancy Boots',
             slot: 5,
-            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/8/8f/Fancy_boots.png/revision/latest?cb=20130226182655',
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/8/8f/Fancy_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1556,7 +1764,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Bronze Boots',
             slot: 5,
-            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/5/5e/Bronze_boots.png/revision/latest?cb=20140328031805',
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/5/5e/Bronze_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1608,7 +1816,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Iron Boots',
             slot: 5,
-            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/b/b4/Iron_boots.png/revision/latest?cb=20131120171149',
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/b/b4/Iron_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1660,7 +1868,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Steel Boots',
             slot: 5,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/9/98/Steel_boots.png/revision/latest?cb=20140309032657',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/9/98/Steel_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1712,7 +1920,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Black Boots',
             slot: 5,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/1/1f/Black_boots.png/revision/latest?cb=20131107214234',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/1/1f/Black_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1764,7 +1972,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Mithril Boots',
             slot: 5,
-            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/e/e1/Mithril_boots.png/revision/latest?cb=20131119025839',
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/e/e1/Mithril_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1816,7 +2024,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Adamant Boots',
             slot: 5,
-            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/e/e5/Adamant_boots.png/revision/latest?cb=20131120171018',
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/e/e5/Adamant_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1868,7 +2076,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Rune Boots',
             slot: 5,
-            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/e/e8/Rune_boots.png/revision/latest?cb=20140806031749',
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/e/e8/Rune_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1920,7 +2128,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Dragon Boots',
             slot: 5,
-            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/d/d7/Dragon_boots.png/revision/latest?cb=20131017220618',
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/d/d7/Dragon_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -1972,7 +2180,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Bandos Boots',
             slot: 5,
-            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/0/0c/Bandos_boots.png/revision/latest?cb=20140814154330',
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/0/0c/Bandos_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2024,7 +2232,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Primordial Boots',
             slot: 5,
-            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/4/42/Primordial_boots.png/revision/latest?cb=20150903194749',
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/4/42/Primordial_boots.png',
             stats: {
                 attack: {
                     stab: 2,
@@ -2076,7 +2284,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Spined Boots',
             slot: 5,
-            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/d/d3/Spined_boots.png/revision/latest?cb=20131213002101',
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/d/d3/Spined_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2128,7 +2336,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Leather Boots',
             slot: 5,
-            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/e/ea/Leather_boots.png/revision/latest?cb=20131027015116',
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/e/ea/Leather_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2180,7 +2388,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Frog-leather Boots',
             slot: 5,
-            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/8/8c/Frog-leather_boots.png/revision/latest?cb=20131228052922',
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/8/8c/Frog-leather_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2232,7 +2440,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Snakeskin Boots',
             slot: 5,
-            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/4/42/Snakeskin_boots.png/revision/latest?cb=20140709193627',
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/4/42/Snakeskin_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2284,7 +2492,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Ranger Boots',
             slot: 5,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/f/f3/Ranger_boots.png/revision/latest?cb=20150330173511',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/f/f3/Ranger_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2336,7 +2544,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Pegasian Boots',
             slot: 5,
-            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/7/71/Pegasian_boots.png/revision/latest?cb=20150903194749',
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/7/71/Pegasian_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2388,7 +2596,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Skeletal Boots',
             slot: 5,
-            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/0/0e/Skeletal_boots.png/revision/latest?cb=20131207055617',
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/0/0e/Skeletal_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2440,7 +2648,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Ghostly Boots',
             slot: 5,
-            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/a/a2/Ghostly_boots.png/revision/latest?cb=20130401221213',
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/a/a2/Ghostly_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2492,7 +2700,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Moonclan Boots',
             slot: 5,
-            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/3/3a/Moonclan_boots.png/revision/latest?cb=20140330015311',
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/3/3a/Moonclan_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2544,7 +2752,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Splitbark Boots',
             slot: 5,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/4/43/Splitbark_boots.png/revision/latest?cb=20140726051921',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/4/43/Splitbark_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2596,7 +2804,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Wizard Boots',
             slot: 5,
-            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/9/99/Wizard_boots.png/revision/latest?cb=20130801125841',
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/9/99/Wizard_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2648,7 +2856,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Mystic Boots',
             slot: 5,
-            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/7/7f/Mystic_boots_%28blue%29.png/revision/latest?cb=20131117221734',
+            image: 'http://vignette3.wikia.nocookie.net/2007scape/images/7/7f/Mystic_boots_%28blue%29.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2700,7 +2908,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Infinity Boots',
             slot: 5,
-            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/d/d8/Infinity_boots.png/revision/latest?cb=20131206213324',
+            image: 'http://vignette1.wikia.nocookie.net/2007scape/images/d/d8/Infinity_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2752,7 +2960,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Lunar Boots',
             slot: 5,
-            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/8/84/Lunar_boots.png/revision/latest?cb=20140102213716',
+            image: 'http://vignette2.wikia.nocookie.net/2007scape/images/8/84/Lunar_boots.png',
             stats: {
                 attack: {
                     stab: 0,
@@ -2804,7 +3012,7 @@ angular.module('OSFitter').factory('ItemFactory', [function () {
         {
             name: 'Eternal Boots',
             slot: 5,
-            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/e/ee/Eternal_boots.png/revision/latest?cb=20150903194748',
+            image: 'http://vignette4.wikia.nocookie.net/2007scape/images/e/ee/Eternal_boots.png',
             stats: {
                 attack: {
                     stab: 0,
