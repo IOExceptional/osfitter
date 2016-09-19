@@ -26,6 +26,7 @@ body, html {
 .itemImage {
     width: 30px;
     height: 30px;
+    display: inline;
 }
 
 .itemImage img {
